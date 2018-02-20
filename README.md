@@ -8,36 +8,30 @@ Project created for Developmental Learning Solutions inc.
 This project produces a data visualization of DLS provider hours over a two year period
   
 
-
 ### Repository Contents
 ---
 
-README.mp
+README.md
 
-providerdata.Xlsx
+DLS Provider Hour Analysis.py
 
-Weekly Provider Report.py
+Provider Hours 2015-2017.png
 
-createtable.php
+providerdata.xlsx
 
 
 ### Notes
 ---
 
-#### Weekly Provider Report.py:
+#### DLS Provider Hour Analysis.py:
 
-Original program ran on the DLS server
+This program reads in data, performs analysis, and outputs a visualization to .png file
 
-This file has been updated to read from the edited data set weeklyreportdata.csv
-
-#### weeklyreportdata.csv:
+#### providerdata.xlsx:
  
-Origninal data pulled from html table produced by createtable.php on DLS server
+Data was exported from [X2crm Database](https://github.com/X2Engine/X2CRM) on DLS server
 
-Read data from table and exported to csv to censor private data
+Datafile censored to protect private data
+
+Data from 2015-2017
   
-#### createtable.php:
-
-Use to query needed data from DLS servers
-
-SQL queries data from [X2crm Database](https://github.com/X2Engine/X2CRM)
